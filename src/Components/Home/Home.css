@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+.home-container{
+    background-image: url('https://i.postimg.cc/5tT6NnmW/Mask-Group-1-2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    border-radius: 15px;
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 800px;
+}
+
+.form-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 70px;
+}
+
+.details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+    background-image: linear-gradient(to right bottom, #2a3f7a, #4d3e87, #73388d, #98298a, #bb017e);
+    border-radius: 20px;
+    height: 280px;
+    border: 10px solid #ffffff;
+    color: #ffffff;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 800px;
+}
+
+.extra-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 70px;
+}
+
+.details-logo-img{
+    width: 230px;
+}
+
+.details-para{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.details-head{
+    font-size: 30px;
+}
+
+.details-doctors-img{
+    width: 400px;
+    position: relative;
+    bottom: 30px;
+}
+
+.details-btn{
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}

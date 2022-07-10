@@ -1,0 +1,152 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 30px;
+
+}
+
+.doctor-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: translateY(-25px);
+}
+
+.card-right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.doctor-details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-doctor-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.date-appointment-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.doctor-details-container{
+    border-bottom: 1px solid black;
+    border-bottom-style: dashed;
+    padding-bottom: 10px;
+}
+
+.same-size-para{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.fee{
+    margin-left: 10px;
+}
+
+.clinic-name{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.rupees-bold{
+    font-weight: bold;
+}
+
+.available-today-matter{
+    margin-left: 15px;
+    font-size: 12px;
+    color: #293887;
+}
+
+.date-appointment-container{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.videoconsult-btn{
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #8A45E6;
+    border-radius: 5px;
+    color: #8A45E6;
+    font-weight: 690;
+    margin-left: 50px;
+}
+
+.availabletoday{
+    margin-top: 8px;
+}
+
+.bookappointment-btn{
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    outline: none;
+    background-color: #293887;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.likes-patients-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 12px;
+    position: relative;
+    left: 10px;
+    bottom: 25px;
+    margin-left: 30px;
+}
+
+.likes{
+    background-color: #089E02;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.likes-span{
+    margin-left: 5px;
+}
+
+.patients{
+    font-weight: bold;
+    margin-top: 5px;
+    text-decoration: underline;
+}

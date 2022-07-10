@@ -1,0 +1,76 @@
+.doctorslist-container{
+    background-image: url('https://i.postimg.cc/5tT6NnmW/Mask-Group-1-2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+.navbar-doctorslist{
+    height: 50px ;
+    width: 98.9vw;
+    background-color: #293887;
+    margin-top: 50px;
+}
+
+.doctorslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.clinics-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.clinics-list-first{
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+.clinics-list-second{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.clinics-list-list{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.heading{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.paragraph{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.doctors-card-title{
+    font-size: 24px;
+}
+
+.doctors-card-paragraph{
+    font-size: 14px;
+    color: #293887;
+    margin-top: 8px;
+}
+
+.text-icon{
+    margin-left: 5px;
+}
